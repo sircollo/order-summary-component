@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+/* Order Summary
+
+  You can now listen to millions of songs, audiobooks, and podcasts on any 
+  device anywhere you like!
+
+  Annual Plan
+  $59.99/year
+
+  Change
+
+  Proceed to Payment
+  Cancel Order */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display';
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px;
+    border-radius: 20px;
+    height: 100%;
+    margin-bottom: 20px;
+}
+.hero img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: fill;
+    width: 100%;
+}
+.summary{
+    margin-top: 0.8rem;
+}
+.summary p{
+    font-size: 1rem;
+    margin: 0.675rem 1.25rem;
+    color: gray;
+}
+.plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 25px;
+    border-radius: 10px;
+    gap: 1rem;
+    background-color:  hsl(225, 100%, 98%);
+}
+.plan-price{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+    font-family: 'Red Hat Display';
+}
+.plan-price p{
+    color: gray;
+}
+.change{
+    margin-left: 35px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.change:hover{
+    cursor: pointer;
+}
+.change:active{
+    color: hsl(245, 75%, 52%);
+}
+button{
+    width: 80%;
+    margin-top: 28px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.payment-btn{
+    background-color: hsl(245, 75%, 52%);
+    outline: none;
+    border: 0;
+    color: #fff;
+    padding: 18px; 
+    font-family: 'Red Hat Display';
+    letter-spacing: 1px;
+    box-shadow: 0 8px 26px 0 hsl(225, 100%, 94%), 0 6px 20px 0 hsl(225, 100%, 94%);
+}
+.payment-btn:active{
+    background-color: hsl(245, 84%, 76%);
+    transition: 150px ease-in-out;
+}
+.payment-btn, .cancel-btn{
+    cursor: pointer;
+}
+.cancel-btn{
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+    background-color: #fff;
+    color: gray;
+    font-weight: 700;
+    font-family: 'Red Hat Display';
+    letter-spacing: 1px;
+}
+.cancel-btn:active {
+    color: black
+}
