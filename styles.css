@@ -33,7 +33,7 @@ main{
     max-width: 400px;
     background-color: #fff;
     text-align: center;
-    margin: 20px;
+    margin: 100px;
     border-radius: 20px;
     height: 100%;
     margin-bottom: 20px;
@@ -119,4 +119,10 @@ button{
 }
 .cancel-btn:active {
     color: black
+}
+
+@media only screen and (min-width:375px){
+    h2{
+        font-size: 0.85rem;
+    }
 }
