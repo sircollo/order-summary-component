@@ -18,9 +18,9 @@
 }
 body{
     background-color: hsl(225, 100%, 94%);
-    max-height: 100vh;
-    display: flex;
-    justify-content: center;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
     overflow: hidden;
     background-image: url('./images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ button{
 .cancel-btn{
     border: none;
     outline: none;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background-color: #fff;
     color: gray;
     font-weight: 700;
